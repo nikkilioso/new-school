@@ -1,0 +1,28 @@
+@media only screen and (min-width: 768px) {
+
+.row {
+    grid-template-columns: 1fr 1fr;
+}
+
+nav button {
+    display: none;
+}
+
+nav a {
+    padding: .7rem 1rem;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+} /* end of media query */
