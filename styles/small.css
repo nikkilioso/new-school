@@ -55,7 +55,6 @@ nav li {
 nav li.active {
     list-style-type: none;
     background-color: rgba(0, 0, 0, 0.3);
-    color: rgb(211, 11, 134);
 }
 
 nav a {
@@ -94,10 +93,16 @@ header img {
 }
 
 .row {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     grid-gap: 10px;
     padding: .5rem;
+}
+
+.row-limited {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
 }
 
 .max-width {
@@ -105,6 +110,50 @@ header img {
     margin: 0 auto;
 }
 
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+main h1 {
+    color: black;
+    font-style: bold;
+    margin: .5em;
+    font-size: 2em;
+}
+
+.labeled h6, .labeled p {
+    background-color: antiquewhite;
+    margin: 0;
+    width: 100%;
+    padding: .3rem 1rem;   
+}
+
+.labeled h6 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.labeled p {
+    font-weight: 700;
+    color: black;
+}
+
+.column {
+    font-size: 14px;
+    
+}
+
+.column p {
+    line-height: 4px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 footer {
     background-color: antiquewhite;
@@ -120,17 +169,12 @@ footer h2 {
     gap: 10px;
 }
 
-.column {
-    font-size: 14px;
-    
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
 }
 
-.column p {
-    line-height: 4px;
-
+.card img {
+    max-width: 100%;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }

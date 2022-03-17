@@ -1,7 +1,9 @@
 @media only screen and (min-width: 768px) {
 
 .row {
-    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
 }
 
 nav button {
@@ -17,12 +19,9 @@ nav a {
     gap: 16px;
 }
 
-
-
-
-
-
-
+.grid {
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
 } /* end of media query */
