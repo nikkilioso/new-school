@@ -54,7 +54,6 @@ nav li {
 
 nav li.active {
     list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav a {
@@ -62,7 +61,7 @@ nav a {
     padding: .8rem 0;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 900;
     color: black;
 }
 
@@ -72,6 +71,7 @@ nav a:hover {
 
 nav ul.open {
     display: block;
+    color: blueviolet;
 } 
 
 nav ul {
@@ -90,6 +90,11 @@ header img {
 .header-row {
     display: flex;
     gap: 25px;
+}
+
+p {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
 }
 
 .row {
@@ -118,8 +123,8 @@ header img {
 main h1 {
     color: black;
     font-style: bold;
-    margin: .5em;
-    font-size: 2em;
+    margin-top: 0.5em;
+    font-size: 1.75em;
 }
 
 .labeled h6, .labeled p {
@@ -173,8 +178,18 @@ footer h2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+    padding-bottom: 5rem;
 }
 
 .card img {
     max-width: 100%;
+    object-fit: cover;
+}
+
+.card P {
+    font-weight: 800;
+}
+.card h3 {
+    font-size: 1rem;
+    color: rgb(54, 51, 51);
 }
