@@ -1,3 +1,2 @@
-# new-school
-## not old school
-### words and stuff
+# New-School
+## By Nikki Romero
