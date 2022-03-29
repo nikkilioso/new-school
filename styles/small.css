@@ -13,7 +13,7 @@ body {
 
 
 header {
-    background-color: rgb(128, 0, 100);
+    background-color: rgb(216, 204, 219);
     padding: 0rem;
 }
 
@@ -40,7 +40,7 @@ button#hamburgerBtn {
 
 
 nav {
-    background-color: antiquewhite;
+    background-color: rgb(216, 204, 219);
     padding: 1rem 0;
 }   
 
@@ -121,6 +121,7 @@ p {
 .form-width {
     max-width: 600px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .column img {
@@ -137,7 +138,7 @@ main h1 {
 }
 
 .labeled p {
-    background-color: antiquewhite;
+    background-color: rgb(216, 204, 219);
     margin: 0;
     width: 100%;
     padding: .3rem 1rem;   
@@ -160,7 +161,7 @@ ul {
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color:rgb(216, 204, 219);
     font-size: 1.2rem;
     padding: 0 0 1rem 0;
 }

@@ -10,5 +10,7 @@ The following are the requirements that are fulfilled for this project:
 
 The font in use is Public Sans
 The film images were borrowed from the website: https://thefindlab.ecwid.com/BUY-FILM-c29121455
-The landing page image is:
+The landing page image is by Skyler Gerald on Unsplash.
+
+
 
