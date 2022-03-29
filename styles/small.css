@@ -150,10 +150,6 @@ main h1 {
     font-size: 14px;
 }
 
-.column p {
-    line-height: 4px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
