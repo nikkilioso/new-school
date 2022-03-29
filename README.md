@@ -8,8 +8,10 @@ The following are the requirements that are fulfilled for this project:
 2. The CSS requirement is fulfilled by the navigation menu which is responsive and changes with different media queries.
 3. The additional requirement is fulfilled by the use of both CSS Grid and Flexbox in the CSS.
 
-The font in use is Public Sans
+The font in use is Public Sans.
+
 The film images were borrowed from the website: https://thefindlab.ecwid.com/BUY-FILM-c29121455
+
 The landing page image is by Skyler Gerald on Unsplash.
 
 
